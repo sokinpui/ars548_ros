@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/VelocityVehicle.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct VelocityVehicle {
+      @verbatim (language="comment", text=
+        "(unused) Velocity near standstill status")
+      uint8 statusvelocitynearstandstill;
+
+      @verbatim (language="comment", text=
+        "(unused) VelovityVehicle qualifier")
+      uint8 qualifiervelocityvehicle;
+
+      @verbatim (language="comment", text=
+        "(unused) Event data qualifier VelocityVehicle")
+      uint8 velocityvehicleeventdataqualifier;
+
+      @verbatim (language="comment", text=
+        "VelocityVehicle")
+      float velocityvehicle;
+
+      @verbatim (language="comment", text=
+        "(unused) Invalid flag VelocityVehicle")
+      uint8 velocityvehicle_invalidflag;
+    };
+  };
+};

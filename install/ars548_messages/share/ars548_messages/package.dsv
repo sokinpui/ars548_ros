@@ -1,0 +1,11 @@
+source;share/ars548_messages/hook/cmake_prefix_path.ps1
+source;share/ars548_messages/hook/cmake_prefix_path.dsv
+source;share/ars548_messages/hook/cmake_prefix_path.sh
+source;share/ars548_messages/hook/ld_library_path_lib.ps1
+source;share/ars548_messages/hook/ld_library_path_lib.dsv
+source;share/ars548_messages/hook/ld_library_path_lib.sh
+source;share/ars548_messages/local_setup.bash
+source;share/ars548_messages/local_setup.dsv
+source;share/ars548_messages/local_setup.ps1
+source;share/ars548_messages/local_setup.sh
+source;share/ars548_messages/local_setup.zsh

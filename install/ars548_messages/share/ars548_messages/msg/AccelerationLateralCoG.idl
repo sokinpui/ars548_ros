@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/AccelerationLateralCoG.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct AccelerationLateralCoG {
+      @verbatim (language="comment", text=
+        "(Unused) Error Amplitude of Lateral Acceleration")
+      float accelerationlateralerramp;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid Flags AccelLatErrAmp")
+      uint8 accelerationlateralerramp_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) Lateral Acceleration Qualifier")
+      uint8 qualifieraccelerationlateral;
+
+      @verbatim (language="comment", text=
+        "Lateral Acceleration")
+      float accelerationlateral;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid Flag Lateral Acceleration")
+      uint8 accelerationlateral_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) Event Data Qualifier Lateral Acceleration")
+      uint8 accelerationlateraleventdataqualifier;
+    };
+  };
+};

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/SteeringAngleFrontAxle.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct SteeringAngleFrontAxle {
+      @verbatim (language="comment", text=
+        "(unused) Steering angle front axle qualifier")
+      uint8 qualifiersteeringanglefrontaxle;
+
+      @verbatim (language="comment", text=
+        "(unused) Error amplitude of steering angle front axle")
+      float steeringanglefrontaxleerramp;
+
+      @verbatim (language="comment", text=
+        "(unused) Invalid flag steering angle front axle errAmp")
+      uint8 steeringanglefrontaxleerramp_invalidflag;
+
+      @verbatim (language="comment", text=
+        "Steering angle front axle")
+      float steeringanglefrontaxle;
+
+      @verbatim (language="comment", text=
+        "(unused) Invalid flag steeting angle front axle")
+      uint8 steeringanglefrontaxle_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(unused) Event data qualifier steering angle front axle")
+      uint8 steeringanglefrontaxleeventdataqualifier;
+    };
+  };
+};

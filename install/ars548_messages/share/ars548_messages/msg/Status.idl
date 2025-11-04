@@ -1,0 +1,154 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/Status.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct Status {
+      @verbatim (language="comment", text=
+        "Timestamp Nanoseconds")
+      uint32 timestamp_nanoseconds;
+
+      @verbatim (language="comment", text=
+        "Timestamp Seconds")
+      uint32 timestamp_seconds;
+
+      @verbatim (language="comment", text=
+        "Timestamp Sync Status")
+      uint8 timestamp_syncstatus;
+
+      @verbatim (language="comment", text=
+        "Software version (major)")
+      uint8 swversion_major;
+
+      @verbatim (language="comment", text=
+        "Software version (minor)")
+      uint8 swversion_minor;
+
+      @verbatim (language="comment", text=
+        "Software version (patch)")
+      uint8 swversion_patch;
+
+      @verbatim (language="comment", text=
+        "Longitudinal sensor position (AUTOSAR)")
+      float longitudinal;
+
+      @verbatim (language="comment", text=
+        "Lateral sensor position (AUTOSAR)")
+      float lateral;
+
+      @verbatim (language="comment", text=
+        "Vertical sensor position (AUTOSAR)")
+      float vertical;
+
+      @verbatim (language="comment", text=
+        "Sensor yaw angle (AUTOSAR)")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "Sensor pitch angle (AUTOSAR)")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "Orientation of plug")
+      uint8 plugorientation;
+
+      @verbatim (language="comment", text=
+        "Vehicle length")
+      float length;
+
+      @verbatim (language="comment", text=
+        "Vehicle width")
+      float width;
+
+      @verbatim (language="comment", text=
+        "Vehicle height")
+      float height;
+
+      @verbatim (language="comment", text=
+        "Vehicle wheelbase")
+      float wheelbase;
+
+      @verbatim (language="comment", text=
+        "Maximum detection distance")
+      uint16 maximumdistance;
+
+      @verbatim (language="comment", text=
+        "Center frequency")
+      uint8 frequencyslot;
+
+      @verbatim (language="comment", text=
+        "Cycle time")
+      uint8 cycletime;
+
+      @verbatim (language="comment", text=
+        "Cycle offset")
+      uint8 timeslot;
+
+      @verbatim (language="comment", text=
+        "Country code")
+      uint8 hcc;
+
+      @verbatim (language="comment", text=
+        "Power saving in standstill")
+      uint8 powersave_standstill;
+
+      @verbatim (language="comment", text=
+        "Sensor IP address")
+      uint32 sensoripaddress_0;
+
+      @verbatim (language="comment", text=
+        "Reserved")
+      uint32 sensoripaddress_1;
+
+      @verbatim (language="comment", text=
+        "Counter that counts up if new configuration has been received and accepted")
+      uint8 configurationcounter;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_longitudinalvelocity;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_longitudinalacceleration;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_lateralacceleration;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_yawrate;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_steeringangle;
+
+      @verbatim (language="comment", text=
+        "Signals if current value is OK or timed out")
+      uint8 status_drivingdirection;
+
+      @verbatim (language="comment", text=
+        "(Unused) Signals if current value is OK or timed out.")
+      uint8 status_characteristicspeed;
+
+      @verbatim (language="comment", text=
+        "Signals if Radar Status is OK")
+      uint8 status_radarstatus;
+
+      @verbatim (language="comment", text=
+        "Bitfield to report under- and overvoltage errors")
+      uint8 status_voltagestatus;
+
+      @verbatim (language="comment", text=
+        "Bitfield to report under- and overtemperature errors")
+      uint8 status_temperaturestatus;
+
+      @verbatim (language="comment", text=
+        "Current blockage state and blockage self test state.")
+      uint8 status_blockagestatus;
+    };
+  };
+};

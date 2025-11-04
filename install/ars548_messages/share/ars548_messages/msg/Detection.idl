@@ -1,0 +1,78 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/Detection.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct Detection {
+      @verbatim (language="comment", text=
+        "Unaligned Detection Azimuth Angle")
+      float f_azimuthangle;
+
+      @verbatim (language="comment", text=
+        "Azimuth Angle Std")
+      float f_azimuthanglestd;
+
+      @verbatim (language="comment", text=
+        "Detection Invalid Flags")
+      uint8 u_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Unaligned Detection Elevation Angle")
+      float f_elevationangle;
+
+      @verbatim (language="comment", text=
+        "Elevation Angle Std")
+      float f_elevationanglestd;
+
+      @verbatim (language="comment", text=
+        "Detection Radial Distance")
+      float f_range;
+
+      @verbatim (language="comment", text=
+        "Radial Distance Std")
+      float f_rangestd;
+
+      @verbatim (language="comment", text=
+        "Detection Radial Velocity")
+      float f_rangerate;
+
+      @verbatim (language="comment", text=
+        "Radial Velocity Std")
+      float f_rangeratestd;
+
+      @verbatim (language="comment", text=
+        "Detection RCS")
+      int8 s_rcs;
+
+      @verbatim (language="comment", text=
+        "Detection ID")
+      uint16 u_measurementid;
+
+      @verbatim (language="comment", text=
+        "Existence Probability")
+      uint8 u_positivepredictivevalue;
+
+      @verbatim (language="comment", text=
+        "Detection Classification")
+      uint8 u_classification;
+
+      @verbatim (language="comment", text=
+        "Multi-Target Probability")
+      uint8 u_multitargetprobabilitym;
+
+      @verbatim (language="comment", text=
+        "Associated Object ID")
+      uint16 u_objectid;
+
+      @verbatim (language="comment", text=
+        "Probability for resolved velocity ambiguity")
+      uint8 u_ambiguityflag;
+
+      @verbatim (language="comment", text=
+        "tbd")
+      uint16 u_sortindex;
+    };
+  };
+};

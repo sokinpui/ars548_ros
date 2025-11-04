@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/YawRate.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct YawRate {
+      @verbatim (language="comment", text=
+        "(Unused) Error Amplitude of YawRate")
+      float yawrateerramp;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid flags AccelLatErrAmp")
+      uint8 yawrateerramp_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) YawRate qualifier")
+      uint8 qualifieryawrate;
+
+      @verbatim (language="comment", text=
+        "YawRate")
+      float yawrate;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid flag Yaw Rate")
+      uint8 yawrate_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) Event data qualifier YawRate")
+      uint8 yawrateeventdataqualifier;
+    };
+  };
+};

@@ -1,0 +1,136 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/DetectionList.msg
+// generated code does not contain a copyright notice
+
+#include "ars548_messages/msg/Detection.idl"
+#include "std_msgs/msg/Header.idl"
+
+module ars548_messages {
+  module msg {
+    typedef ars548_messages::msg::Detection ars548_messages__msg__Detection;
+    typedef ars548_messages__msg__Detection ars548_messages__msg__Detection__800[800];
+    struct DetectionList {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Checksum (E2E Profile 7) (Reserved)")
+      uint64 crc;
+
+      @verbatim (language="comment", text=
+        "Len (E2E Profile 7) (Reserved)")
+      uint32 length;
+
+      @verbatim (language="comment", text=
+        "SQC (E2E Profile 7) (Reserved)")
+      uint32 sqc;
+
+      @verbatim (language="comment", text=
+        "Data ID (E2E Profile 7) (Reserved)")
+      uint32 dataid;
+
+      @verbatim (language="comment", text=
+        "Timestamp Nanoseconds")
+      uint32 timestamp_nanoseconds;
+
+      @verbatim (language="comment", text=
+        "Timestamp Seconds")
+      uint32 timestamp_seconds;
+
+      @verbatim (language="comment", text=
+        "Timestamp Sync Status")
+      uint8 timestamp_syncstatus;
+
+      @verbatim (language="comment", text=
+        "Event Data Qualifier (unused)")
+      uint32 eventdataqualifier;
+
+      @verbatim (language="comment", text=
+        "Extended Qualifier (unused)")
+      uint8 extendedqualifier;
+
+      @verbatim (language="comment", text=
+        "Sensor Position Invalid flags (unused)")
+      uint16 origin_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Sensor X Position with reference to rear axle")
+      float origin_xpos;
+
+      @verbatim (language="comment", text=
+        "Sensor X Position STD (unused)")
+      float origin_xstd;
+
+      @verbatim (language="comment", text=
+        "Sensor Y Position with reference to rear axle")
+      float origin_ypos;
+
+      @verbatim (language="comment", text=
+        "Sensor Y Position STD (unused)")
+      float origin_ystd;
+
+      @verbatim (language="comment", text=
+        "Sensor Z Position with reference to rear axle")
+      float origin_zpos;
+
+      @verbatim (language="comment", text=
+        "Sensor Z Position STD (unused)")
+      float origin_zstd;
+
+      @verbatim (language="comment", text=
+        "Sensor Roll Angle (unused)")
+      float origin_roll;
+
+      @verbatim (language="comment", text=
+        "Sensor Roll Angle STD (unused)")
+      float origin_rollstd;
+
+      @verbatim (language="comment", text=
+        "Sensor Pitch Angle with alignment correction")
+      float origin_pitch;
+
+      @verbatim (language="comment", text=
+        "Sensor Pitch Angle STD")
+      float origin_pitchstd;
+
+      @verbatim (language="comment", text=
+        "Sensor Yaw Angle with alignment correction")
+      float origin_yaw;
+
+      @verbatim (language="comment", text=
+        "Sensor Yaw Angle STD")
+      float origin_yawstd;
+
+      @verbatim (language="comment", text=
+        "Invalid flags (unused)")
+      uint8 list_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Detection Array")
+      ars548_messages__msg__Detection__800 list_detections;
+
+      @verbatim (language="comment", text=
+        "Ambiguity free Doppler velocity range Min")
+      float list_radveldomain_min;
+
+      @verbatim (language="comment", text=
+        "Ambiguity free Doppler velocity range Max")
+      float list_radveldomain_max;
+
+      @verbatim (language="comment", text=
+        "Number of Detections")
+      uint32 list_numofdetections;
+
+      @verbatim (language="comment", text=
+        "Azimuth Alignment Correction")
+      float aln_azimuthcorrection;
+
+      @verbatim (language="comment", text=
+        "Elevation Alignment Correction")
+      float aln_elevationcorrection;
+
+      @verbatim (language="comment", text=
+        "Status of alignment")
+      uint8 aln_status;
+    };
+  };
+};

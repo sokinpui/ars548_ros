@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/AccelerationLongitudinalCoG.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct AccelerationLongitudinalCoG {
+      @verbatim (language="comment", text=
+        "(Unused) Error amplitude of longitudinal acceleration")
+      float accelerationlongitudinalerramp;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid Flags AccelLongErrAmp")
+      uint8 accelerationlongitudinalerramp_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) Longitudinal Acceleration Qualifier")
+      uint8 qualifieraccelerationlongitudinal;
+
+      @verbatim (language="comment", text=
+        "Longitudinal Acceleration")
+      float accelerationlongitudinal;
+
+      @verbatim (language="comment", text=
+        "(Unused) Invalid Flag Longitudinal Acceleration")
+      uint8 accelerationlongitudinal_invalidflag;
+
+      @verbatim (language="comment", text=
+        "(Unused) Event Data Qualifier Longitudinal Acceleration")
+      uint8 accelerationlongitudinaleventdataqualifier;
+    };
+  };
+};

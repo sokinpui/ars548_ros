@@ -1,0 +1,98 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/SensorConfiguration.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct SensorConfiguration {
+      @verbatim (language="comment", text=
+        "Longitudinal sensor position (AUTOSAR)")
+      float longitudinal;
+
+      @verbatim (language="comment", text=
+        "Lateral sensor position (AUTOSAR)")
+      float lateral;
+
+      @verbatim (language="comment", text=
+        "Vertical sensor position (AUTOSAR)")
+      float vertical;
+
+      @verbatim (language="comment", text=
+        "Sensor yaw angle (AUTOSAR)")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "Sensor pitch angle (AUTOSAR)")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "Orientation of plug")
+      uint8 plugorientation;
+
+      @verbatim (language="comment", text=
+        "Vehicle length")
+      float length;
+
+      @verbatim (language="comment", text=
+        "Vehicle width")
+      float width;
+
+      @verbatim (language="comment", text=
+        "Vehicle height")
+      float height;
+
+      @verbatim (language="comment", text=
+        "Vehicle wheelbase")
+      float wheelbase;
+
+      @verbatim (language="comment", text=
+        "Maximum detection distance")
+      uint16 maximumdistance;
+
+      @verbatim (language="comment", text=
+        "Center frequency (if MaximumDistance < 190 m only Mid can be selected)")
+      uint8 frequencslot;
+
+      @verbatim (language="comment", text=
+        "Cycle time")
+      uint8 cycletime;
+
+      @verbatim (language="comment", text=
+        "Cycle offset")
+      uint8 timeslot;
+
+      @verbatim (language="comment", text=
+        "Country code")
+      uint8 hcc;
+
+      @verbatim (language="comment", text=
+        "Power saving in standstill")
+      uint8 powersave_standstill;
+
+      @verbatim (language="comment", text=
+        "Sensor IP address")
+      uint32 sensoripaddress_0;
+
+      @verbatim (language="comment", text=
+        "Reserved (Configure as 2852025457 or 169.254.116.113)")
+      uint32 sensoripaddress_1;
+
+      @verbatim (language="comment", text=
+        "Flag if new sensor mounting position shall be configured")
+      uint8 newsensormounting;
+
+      @verbatim (language="comment", text=
+        "Flag if new vehicle parameters position shall be configured")
+      uint8 newvehicleparameters;
+
+      @verbatim (language="comment", text=
+        "Flag if new radar parameter shall be configured")
+      uint8 newradarparameters;
+
+      @verbatim (language="comment", text=
+        "Flag if new IP address shall be configured")
+      uint8 newnetworkconfiguration;
+    };
+  };
+};

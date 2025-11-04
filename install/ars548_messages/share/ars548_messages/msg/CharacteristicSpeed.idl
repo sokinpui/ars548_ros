@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/CharacteristicSpeed.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct CharacteristicSpeed {
+      @verbatim (language="comment", text=
+        "(Unused) Error amplitude of characteristic speed")
+      uint8 characteristicspeederramp;
+
+      @verbatim (language="comment", text=
+        "(Unused) Characteristic speed qualifier")
+      uint8 qualifiercharacteristicspeed;
+
+      @verbatim (language="comment", text=
+        "Characteristic speed")
+      uint8 characteristicspeed;
+    };
+  };
+};

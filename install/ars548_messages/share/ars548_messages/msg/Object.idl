@@ -1,0 +1,266 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ars548_messages/msg/Object.msg
+// generated code does not contain a copyright notice
+
+
+module ars548_messages {
+  module msg {
+    struct Object {
+      @verbatim (language="comment", text=
+        "tbd")
+      uint16 u_statussensor;
+
+      @verbatim (language="comment", text=
+        "Unique ID of object")
+      uint32 u_id;
+
+      @verbatim (language="comment", text=
+        "Age of object")
+      uint16 u_age;
+
+      @verbatim (language="comment", text=
+        "Object Status")
+      uint8 u_statusmeasurement;
+
+      @verbatim (language="comment", text=
+        "Object Movement Status")
+      uint8 u_statusmovement;
+
+      @verbatim (language="comment", text=
+        "tbd")
+      uint16 u_position_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Reference point position")
+      uint8 u_position_reference;
+
+      @verbatim (language="comment", text=
+        "X Position of reference point")
+      float u_position_x;
+
+      @verbatim (language="comment", text=
+        "X Position Std")
+      float u_position_x_std;
+
+      @verbatim (language="comment", text=
+        "Y Position of reference point")
+      float u_position_y;
+
+      @verbatim (language="comment", text=
+        "Y Position Std")
+      float u_position_y_std;
+
+      @verbatim (language="comment", text=
+        "Z Position of reference point")
+      float u_position_z;
+
+      @verbatim (language="comment", text=
+        "Z Position Std")
+      float u_position_z_std;
+
+      @verbatim (language="comment", text=
+        "Covariance X Y")
+      float u_position_covariancexy;
+
+      @verbatim (language="comment", text=
+        "Object Orientation")
+      float u_position_orientation;
+
+      @verbatim (language="comment", text=
+        "Orientation Std")
+      float u_position_orientation_std;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_existence_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Probability of Existence")
+      float u_existence_probability;
+
+      @verbatim (language="comment", text=
+        "unused")
+      float u_existence_ppv;
+
+      @verbatim (language="comment", text=
+        "Car Classification Probability")
+      uint8 u_classification_car;
+
+      @verbatim (language="comment", text=
+        "Truck Classification Probability")
+      uint8 u_classification_truck;
+
+      @verbatim (language="comment", text=
+        "Motorcycle Classification Probability")
+      uint8 u_classification_motorcycle;
+
+      @verbatim (language="comment", text=
+        "Bicycle Classification Probability")
+      uint8 u_classification_bicycle;
+
+      @verbatim (language="comment", text=
+        "Pedestrian Classification Probability")
+      uint8 u_classification_pedestrian;
+
+      @verbatim (language="comment", text=
+        "Animal Classification Probability")
+      uint8 u_classification_animal;
+
+      @verbatim (language="comment", text=
+        "Hazard Classification Probability")
+      uint8 u_classification_hazard;
+
+      @verbatim (language="comment", text=
+        "Unknown Classification Probability")
+      uint8 u_classification_unknown;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_classification_overdrivable;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_classification_underdrivable;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_dynamics_absvel_invalidflags;
+
+      @verbatim (language="comment", text=
+        "X Absolute Velocity")
+      float f_dynamics_absvel_x;
+
+      @verbatim (language="comment", text=
+        "X Absolute Velocity Std")
+      float f_dynamics_absvel_x_std;
+
+      @verbatim (language="comment", text=
+        "Y Absolute Velocity")
+      float f_dynamics_absvel_y;
+
+      @verbatim (language="comment", text=
+        "Y Absolute Velocity Std")
+      float f_dynamics_absvel_y_std;
+
+      @verbatim (language="comment", text=
+        "Covariance Absolute Velocity X Y")
+      float f_dynamics_absvel_covariancexy;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_dynamics_relvel_invalidflags;
+
+      @verbatim (language="comment", text=
+        "X Relative Velocity")
+      float f_dynamics_relvel_x;
+
+      @verbatim (language="comment", text=
+        "X Relative Velocity Std")
+      float f_dynamics_relvel_x_std;
+
+      @verbatim (language="comment", text=
+        "Y Relative Velocity")
+      float f_dynamics_relvel_y;
+
+      @verbatim (language="comment", text=
+        "Y Relative Velocity Std")
+      float f_dynamics_relvel_y_std;
+
+      @verbatim (language="comment", text=
+        "Covariance Relative Velocity X Y")
+      float f_dynamics_relvel_covariancexy;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_dynamics_absaccel_invalidflags;
+
+      @verbatim (language="comment", text=
+        "X Absolute Acceleration")
+      float f_dynamics_absaccel_x;
+
+      @verbatim (language="comment", text=
+        "X Absolute Acceleration Std")
+      float f_dynamics_absaccel_x_std;
+
+      @verbatim (language="comment", text=
+        "Y Absolute Acceleration")
+      float f_dynamics_absaccel_y;
+
+      @verbatim (language="comment", text=
+        "Y Absolute Acceleration Std")
+      float f_dynamics_absaccel_y_std;
+
+      @verbatim (language="comment", text=
+        "Covariance Absolute Acceleration X Y")
+      float f_dynamics_absaccel_covariancexy;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_dynamics_relaccel_invalidflags;
+
+      @verbatim (language="comment", text=
+        "X Relative Acceleration")
+      float f_dynamics_relaccel_x;
+
+      @verbatim (language="comment", text=
+        "X Relative Acceleration Std")
+      float f_dynamics_relaccel_x_std;
+
+      @verbatim (language="comment", text=
+        "Y Relative Acceleration")
+      float f_dynamics_relaccel_y;
+
+      @verbatim (language="comment", text=
+        "Y Relative Acceleration Std")
+      float f_dynamics_relaccel_y_std;
+
+      @verbatim (language="comment", text=
+        "Covariance Relative Acceleration X Y")
+      float f_dynamics_relaccel_covariancexy;
+
+      @verbatim (language="comment", text=
+        "unused")
+      uint8 u_dynamics_orientation_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Object Orientation Rate")
+      float u_dynamics_orientation_rate_mean;
+
+      @verbatim (language="comment", text=
+        "Orientation Rate Std")
+      float u_dynamics_orientation_rate_std;
+
+      @verbatim (language="comment", text=
+        "(unused) Shape Length Status")
+      uint32 u_shape_length_status;
+
+      @verbatim (language="comment", text=
+        "(unused) Invalid Flags Shape Length")
+      uint8 u_shape_length_edge_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Mean Shape Length")
+      float u_shape_length_edge_mean;
+
+      @verbatim (language="comment", text=
+        "(unused) Shape Length Std")
+      float u_shape_length_edge_std;
+
+      @verbatim (language="comment", text=
+        "(unused) Shape Width Status")
+      uint32 u_shape_width_status;
+
+      @verbatim (language="comment", text=
+        "(unused) Invalid Flags Shape Width")
+      uint8 u_shape_width_edge_invalidflags;
+
+      @verbatim (language="comment", text=
+        "Mean Shape Width")
+      float u_shape_width_edge_mean;
+
+      @verbatim (language="comment", text=
+        "(unused) Shape Width Std")
+      float u_shape_width_edge_std;
+    };
+  };
+};

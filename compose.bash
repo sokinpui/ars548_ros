@@ -6,8 +6,6 @@ sudo ip link delete radarConnection
 echo "Write your parent interface name"
 read parent
 
-./setup_network.sh $parent
-
 #sudo ip link add link enx6c1ff708fccc name radarConnection type vlan id 19
 sudo ip link add link $parent name radarConnection type vlan id 19
 sudo ip addr add 10.13.1.166/24 dev radarConnection

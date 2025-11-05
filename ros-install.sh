@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 locale # check for UTF-8
 
 sudo apt update && sudo apt install locales
